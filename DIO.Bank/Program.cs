@@ -15,19 +15,19 @@ namespace DIO.Bank
 				switch (userChoice)
 				{
 					case "1":
-						//ShowAccounts();
+						ShowAccounts();
 						break;
 					case "2":
 						InsertAccount();
 						break;
 					case "3":
-						//Transfer();
+						Transfer();
 						break;
 					case "4":
-						//Withdraw();
+						Withdraw();
 						break;
 					case "5":
-						//Deposit();
+						Deposit();
 						break;
                     case "C":
 						Console.Clear();
